@@ -31,3 +31,4 @@ c:\Users\Moises\source\repos\MinhaWebAPI\MinhaWebAPI\obj\Debug\net9.0\refint\Min
 c:\Users\Moises\source\repos\MinhaWebAPI\MinhaWebAPI\obj\Debug\net9.0\MinhaWebAPI.pdb
 c:\Users\Moises\source\repos\MinhaWebAPI\MinhaWebAPI\obj\Debug\net9.0\MinhaWebAPI.genruntimeconfig.cache
 c:\Users\Moises\source\repos\MinhaWebAPI\MinhaWebAPI\obj\Debug\net9.0\ref\MinhaWebAPI.dll
+c:\Users\Moises\source\repos\MinhaWebAPI\MinhaWebAPI\obj\Debug\net9.0\MinhaWebAPI.sourcelink.json
