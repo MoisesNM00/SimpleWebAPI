@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aQTdRgExwjM=",
+  "dgSpecHash": "iQCQViXBg6w=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Moises\\source\\repos\\MinhaWebAPI\\MinhaWebAPI\\MinhaWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Moises\\source\\repos\\MinhaWebAPI\\MinhaWebAPI\\MinhaWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Moises\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
     "C:\\Users\\Moises\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"

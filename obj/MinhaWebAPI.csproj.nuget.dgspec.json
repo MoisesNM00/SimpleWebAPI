@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Moises\\source\\repos\\MinhaWebAPI\\MinhaWebAPI\\MinhaWebAPI.csproj": {}
+    "C:\\Users\\Moises\\source\\repos\\MinhaWebAPI\\MinhaWebAPI\\MinhaWebAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Moises\\source\\repos\\MinhaWebAPI\\MinhaWebAPI\\MinhaWebAPI.csproj": {
+    "C:\\Users\\Moises\\source\\repos\\MinhaWebAPI\\MinhaWebAPI\\MinhaWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Moises\\source\\repos\\MinhaWebAPI\\MinhaWebAPI\\MinhaWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Moises\\source\\repos\\MinhaWebAPI\\MinhaWebAPI\\MinhaWebAPI.csproj",
         "projectName": "MinhaWebAPI",
-        "projectPath": "c:\\Users\\Moises\\source\\repos\\MinhaWebAPI\\MinhaWebAPI\\MinhaWebAPI.csproj",
+        "projectPath": "C:\\Users\\Moises\\source\\repos\\MinhaWebAPI\\MinhaWebAPI\\MinhaWebAPI.csproj",
         "packagesPath": "C:\\Users\\Moises\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Moises\\source\\repos\\MinhaWebAPI\\MinhaWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Moises\\source\\repos\\MinhaWebAPI\\MinhaWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
