@@ -19,22 +19,38 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Adicionar serviços do Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
-// Dados em memória (para simular um banco de dados)
+// Configurar Swagger no ambiente de desenvolvimento
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+// Dados em memória
 var dados = new List<string> { "Item1", "Item2", "Item3" };
 
 // GET: Retorna todos os itens
-app.MapGet("/itens", () => dados);
+app.MapGet("/itens", () => dados)
+    .WithName("GetItens") // Nome para a operação no Swagger
+    .WithOpenApi();       // Habilita documentação específica para essa rota
 
 // POST: Adiciona um novo item
 app.MapPost("/itens", (string novoItem) =>
 {
     dados.Add(novoItem);
     return Results.Created("/itens", novoItem);
-});
+})
+    .WithName("AddItem")
+    .WithOpenApi();
 
-// PUT: Atualiza um item existente pelo índice
+// PUT: Atualiza um item pelo índice
 app.MapPut("/itens/{indice}", (int indice, string itemAtualizado) =>
 {
     if (indice < 0 || indice >= dados.Count)
@@ -44,7 +60,9 @@ app.MapPut("/itens/{indice}", (int indice, string itemAtualizado) =>
 
     dados[indice] = itemAtualizado;
     return Results.Ok(itemAtualizado);
-});
+})
+    .WithName("UpdateItem")
+    .WithOpenApi();
 
 // DELETE: Remove um item pelo índice
 app.MapDelete("/itens/{indice}", (int indice) =>
@@ -57,7 +75,11 @@ app.MapDelete("/itens/{indice}", (int indice) =>
     var itemRemovido = dados[indice];
     dados.RemoveAt(indice);
     return Results.Ok($"Item removido: {itemRemovido}");
-});
+})
+    .WithName("DeleteItem")
+    .WithOpenApi();
 
 // Inicia o servidor
 app.Run();
+
+// Use o link http://localhost:5000/swagger para acessar a documentação da API

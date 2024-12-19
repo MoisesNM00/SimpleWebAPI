@@ -32,3 +32,6 @@ c:\Users\Moises\source\repos\MinhaWebAPI\MinhaWebAPI\obj\Debug\net9.0\MinhaWebAP
 c:\Users\Moises\source\repos\MinhaWebAPI\MinhaWebAPI\obj\Debug\net9.0\MinhaWebAPI.genruntimeconfig.cache
 c:\Users\Moises\source\repos\MinhaWebAPI\MinhaWebAPI\obj\Debug\net9.0\ref\MinhaWebAPI.dll
 c:\Users\Moises\source\repos\MinhaWebAPI\MinhaWebAPI\obj\Debug\net9.0\MinhaWebAPI.sourcelink.json
+C:\Users\Moises\source\repos\MinhaWebAPI\MinhaWebAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Moises\source\repos\MinhaWebAPI\MinhaWebAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Moises\source\repos\MinhaWebAPI\MinhaWebAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
